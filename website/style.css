@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  justify-content: center;
+  align-items: center;
+}
+
+.headline {
+  padding: 2rem;
+  font-size: 3.5rem;
+  text-align: center;
+}
+.input-filed {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+.myInput {
+  padding: 1rem;
+  margin: 1rem;
+  border: solid;
+}
+
+.button-class button {
+  width: 100%;
+  height: 100%;
+  background: aqua;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+.feel label {
+  font-size: 1.5rem;
+  margin: 1rem;
+  margin: 2rem;
+  text-align: center;
+}
+.zip label {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 2rem;
+}
+#zip {
+  height: 4rem;
+  margin: 1rem;
+  border: solid;
+}
+.entry {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+.title {
+  font-size: 2rem;
+  margin: 1rem;
+}
+#date {
+  font-size: 1.5rem;
+}
+#content {
+  font-size: 1.5rem;
+}
+#temp {
+  padding-right: 0.5rem;
+  font-size: 1rem;
+}
+.entry-form {
+  border: solid;
+}
